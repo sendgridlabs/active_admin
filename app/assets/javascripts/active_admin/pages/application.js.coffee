@@ -12,5 +12,5 @@ $ ->
   $('.dropdown_button').popover()
 
   # Filter form: don't send any inputs that are empty
-  $('#q_search').submit ->
-    $(@).find(':input[value=""]').attr 'disabled', 'disabled'
+  #$('#q_search').submit ->
+    #$(@).find(':input[value=""]').attr 'disabled', 'disabled'
